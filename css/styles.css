@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+#sec-1{
+    background: url("../images/Banner-bg.jpg");
+}
+
+#sec-1 nav{
+    background: linear-gradient(to top, rgba(20,40,40,0.7),rgba(20,40,40,0.7));
+}
+#sec-1 nav .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sec-1 nav h1{
+    width: 35%;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+#sec-1 nav h1 span{
+    color: #FF9408;
+}
+#sec-1 nav ul{
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sec-1 nav ul li{
+    width: 20%;
+    padding: 10px 0;
+    text-align: center;
+}
+#sec-1 nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+#sec-1 nav ul li:hover{
+    background-color: #33506F;
+    border-bottom: 4px solid #FF9408;
+    padding: 8px 0;
+}
+#sec-1 section .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sec-1 section article{
+    width :40%;
+    padding: 150px 0;
+}
+#sec-1 section article h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px 0;
+    line-height: 1.2; 
+}
+#sec-1 section article h2 span{
+    font-weight: 400;
+    color: #FF9408;
+}
+#sec-1 section article p{
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+#sec-1 section article button{
+    background-color: #496680;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+}
+
+#sec-1 section section{
+    width:55%;
+    background: url("../images/img1.jpg") no-repeat;
+    height: 400px;
+    margin: 100px 0;
+    display: flex;
+    align-items: flex-end;
+}
+#sec-1 section section .content{
+    padding: 20px 20px;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+#sec-1 section section .content div{
+    width:15%;
+}
+#sec-1 section section .content div:last-of-type{
+    width :65%;
+    text-align: right;
+}
+#sec-1 section section .content div i{
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+#sec-1 section section .content div p{
+    display: inline;
+    margin-left: 10px;
+}
+#sec-1 section section .content div h2{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+#sec-1 section section .content div span{
+    text-transform: capitalize;
+    color: #FF9408;
+}
+
+#sec-2 {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+
+}
+#sec-2 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sec-2 h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+#sec-2 p{
+    color:#a39f9f;
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+hr{
+    width: 30%;
+    border: 1px solid #FF9408;
+    margin: 0 auto;
+}
+
+
+#sec-3 {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+#sec-3 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sec-3 div{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 50px 0;
+}
+#sec-3 div a{
+    text-decoration: none;
+    color: #a39f9f;
+    border : 1px solid #a39f9f;
+    padding: 10px 30px;
+    margin: 0;
+    text-transform: uppercase;
+}
+#sec-3 div a:hover{
+    background-color: #FF9408;
+    color: #fff;
+}
+
+#sec-3 .container section{
+    display: flex;
+    flex-wrap: wrap;
+}
+#sec-3 .container section img {
+    width: 40%;
+}
+#sec-3 .container section article{
+    width: 55%;
+    text-align: left;
+    padding: 0 30px;
+}
+#sec-3 .container section article h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    line-height: 1;
+}
+#sec-3 .container section article h3 span{
+    color: #FF9408;
+    font-size: 1rem;
+}
+#sec-3 .container section article p{
+    color: #a39f9f;
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+
+
+#sec-4 {
+    background: url("../images/Services-bg.jpg");
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+#sec-4 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sec-4 .container header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+}
+#sec-4 header h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-weight: 600;
+}
+#sec-4 header p{
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+
+#sec-4 .container section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+#sec-4 .container section aside{
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:387px;
+}
+#sec-4 .container section aside img{
+    margin-top: 50px;
+    width: 60%;
+    
+}
+#sec-4 .container section .dev{
+    background: url("../images/Development-bg.jpg");  
+}
+#sec-4 .container section .design{
+    background: url("../images/desgin-bg.jpg");  
+}
+#sec-4 .container section .concept{
+    background: url("../images/concept-bg.jpg");  
+}
+#sec-4 .container section .system{
+    background: url("../images/systam-bg.jpg");  
+}
+
+#sec-5 {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    width: 100%;
+}
+#sec-5 article{
+    padding-bottom: 50px;
+}
+#sec-5 article .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sec-5 article h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-weight: 600;
+}
+#sec-5 article p{
+    color:#a39f9f;
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+#sec-5 section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#sec-5 section table{
+    width: 100%;
+    margin: 20px;
+    border-spacing: 0px;
+}
+
+#sec-5 section tr td{
+    width: calc(90% / 6);
+    color: #a39f9f;
+    padding: 0;
+    border-left: 1px solid #a39f9f;
+    text-transform: uppercase;
+}
+#sec-5 section tr td:first-of-type,td:last-of-type{
+    background-color: #2D2D2D;
+}
+#sec-5 section tr td:first-of-type{
+    color: #FF9408;
+}
+#sec-5 section tr td:last-of-type{
+    color: #fff;
+}
+#sec-5 section tr th{
+    width: 8%;
+    background-color: #FF9408;
+    padding: 40px 10px;
+    text-transform: uppercase;
+}
+#sec-5 section .small{
+    display: none;
+}
+#sec-5 section .small th{
+    border: 1px solid #000;
+}
+#sec-5 section .small td{
+    width: 10%;
+    padding : 20px 0;
+    border-bottom: 2px solid #a39f9f;
+} 
+
+
+#sec-6 {
+    background: url("../images/Get-bg.jpg");
+    padding: 50px 0;
+    text-align: center;
+
+}
+#sec-6 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sec-6 h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-weight: 600;
+}
+#sec-6 p{
+    color:#a39f9f;
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+
+
+#sec-7 {
+    background-color: #000;
+    padding: 75px;
+}
+#sec-7 .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sec-7 form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+#sec-7 form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#sec-7 form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+#sec-7 form input[type="submit"]{
+    background-color: #FF9408;
+    color: #fff;
+    padding: 20px;
+}
+
+#sec-7 article{
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+}
+#sec-7 article div{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#sec-7 article h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FF9408;
+    text-transform: uppercase;
+}
+#sec-7 article p{
+    display: inline-block;
+    margin-left: 20px;
+}
+#sec-7 article img{
+    margin-right: 20px;
+}
+
+
+footer{
+    background: url("../images/Get-bg.jpg");
+    padding: 20px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+@media (max-width: 767px){  
+	.container {
+		width: 520px;
+		margin: 0 auto;
+	}
+    #sec-1 .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sec-1 nav h1{
+        width: 100%;
+        text-align: center;
+    }
+    #sec-1 nav ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sec-1 nav ul li{
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .sec-1 section .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sec-1 section article {
+        height: 45%;
+        width: 80%;
+        padding: 70px 0;
+        text-align: center;
+    }
+    #sec-1 section section{
+        width: 80%;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+
+
+    #sec-3 .container section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sec-3 .container section img {
+        width: 80%;
+        padding-bottom: 40px;
+    }
+    #sec-3 .container section article{
+        width: 80%;
+    }
+
+
+    #sec-4 .container section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sec-4 .container section aside{
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #sec-5 section .big{
+        display: none;
+    }
+    #sec-5 section .small{
+        display: block;
+    }
+
+    #sec-7 .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sec-7 article p{
+        display: block;
+        margin-left: 0;
+    }
+
+}
+@media (max-width: 991px) {  
+	.container {
+		width: 720px;
+	}
+    #sec-5 section .big{
+        display: none;
+    }
+    #sec-5 section .small{
+        display: block;
+    }
+}
+@media (max-width: 1199) { 
+	.container {
+		width: 920px;
+	}
+    #sec-5 section .big{
+        display: none;
+    }
+    #sec-5 section .small{
+        display: block;
+    }
+}
+@media (min-width: 1200px) {  
+	.container {
+		width: 1140px;
+	}
+}
+@media (min-width: 1400px) {  
+	.container {
+		width: 1340px;
+	}
+}
